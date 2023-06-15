@@ -1,23 +1,16 @@
 #include <stdio.h>
 
-int main() {
-    printf("Art, ");
-    printf("but ");
-    printf("with ");
-    printf("proper ");
-    printf("grammar, ");
-    printf("is ");
-    printf("a ");
-    printf("piece ");
-    printf("of ");
-    printf("art,");
-    printf(", ");
-    printf("followed ");
-    printf("by ");
-    printf("a ");
-    printf("new ");
-    printf("line.");
-    printf("\n");
-    return 0;
+/**
+ * main - prints "with proper grammar, but the outcome is
+ * a piece of art," followed by newline
+ * Return: Always 0.
+ *
+ */
+
+int main(void)
+
+{
+    printf("with proper grammar, but the outcome is a piece of art,\n");
+    return (0);
 }
 
