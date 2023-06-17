@@ -6,23 +6,24 @@
 
 int main(void)
 {
-	char b;
+	
+char b;
 
-	char e;
+char e;
 
-	b = 'a';
-        e = 'A';
-	while
-		(b <= 'z') {
-			putchar(b);
-			b++;
-		}
-	while 
-		(e <= 'z') {
-			putchar(e);
-			e++;
-		}
-	putchar('\n');
-	return (0);
+b = 'a';
+e = 'A';
+while
+(b <= 'z') {
+putchar(b);
+b++;
+}
+while 
+(e <= 'z') {
+putchar(e);
+e++;
+}
+putchar('\n');
+return (0);
 }
 
