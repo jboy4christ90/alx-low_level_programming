@@ -3,14 +3,10 @@
  * main - Entry
  * Return: 0
  */
-
 int main(void)
 {
-	
 char b;
-
 char e;
-
 b = 'a';
 e = 'A';
 while
