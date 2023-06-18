@@ -13,7 +13,6 @@ int main(void)
 		(d < 10) {
 			putchar(d + '0');
 			d++;
-
 		}
 	putchar('\n');
 	return (0);
