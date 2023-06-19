@@ -7,8 +7,9 @@
 int main(void)
 {
 	char y;
-	y = 'a'
-		while
+
+	y = 'a';
+	while
 			(y <= 'z') {
 				if ((y != 'q' && y != 'e') && y <= 'z')
 					putchar(y);
@@ -17,4 +18,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
