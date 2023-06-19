@@ -3,23 +3,25 @@
  * main - Entry
  * Return: 0
  */
+
 int main(void)
 {
-char b;
-char e;
-b = 'a';
-e = 'A';
-while
-(b <= 'z') {
-putchar(b);
-b++;
-}
-while 
-(e <= 'z') {
-putchar(e);
-e++;
-}
-putchar('\n');
-return (0);
-}
+	char b;
 
+	char e;
+
+	b = 'a';
+	e = 'A';
+	while
+		(b <= 'z') {
+			putchar(b);
+			b++;
+		}
+	while 
+		(e <= 'z') {
+			putchar(e);
+			e++;
+		}
+	putchar('\n');
+	return (0);
+}
